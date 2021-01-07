@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS로 html만들기</title>
+    <!-- google webfont -->
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- style and js sheet -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <header id="header"></header>
+    <nav id="nav"></nav>
+    <section>
+        <article class="at at1">
+            <div class="at1_box1"></div>
+            <h2>안녕하세요</h2>
+        </article>
+        <article class="at at2">
+            <ul id="at2_left">
+                <li>로그인</li>
+                <li>회원가입</li>
+                <li>아이디 찾기</li>
+                <li>비밀번호 찾기</li>
+                <li>일반회원</li>
+                <li>정회원</li>
+                <li>고객센터</li>
+            </ul>
+            <ul id="at2_right">
+                <li>
+                    <div class="login">                        
+                        <p>개인회원 로그인</p>
+                        <p class="Xbtn">닫기 X</p>
+                        <div>
+                            <ul class="idform">
+                                <li><input type="text" id="id" placeholder="아이디를 입력하세요"></li>
+                                <li id="login_btn"><a href="#">로그인</a></li>
+                                <li><input type="password" id="pw" placeholder="비밀번호를 입력하세요"></li>
+                            </ul>
+                            <ul id="find">
+                                <li><input type="checkbox" id="checkbox"> 로그인 상태 유지</li>
+                                <li>IP 보안 <span>ON</span> </li>
+                                <li>아이디 찾기</li>
+                                <li>비밀번호 찾기</li>
+                            </ul>
+                            <ul id="social_login">
+                                <li><i class="fab fa-facebook-f"></i> 페이스북</li>
+                                <li><i class="fab fa-blogger-b"></i> 네이버</li>
+                                <li><i class="fab fa-google"></i> 구글</li>
+                                <li><i class="far fa-comment-dots"></i>카카오톡</li>
+                            </ul>
+                        </div>                        
+                    </div>
+                </li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+        </article>
+        <article class="at at3">
+            <div id="cart">
+                <div class="cart_wrap">
+                    <i class="fas fa-shopping-cart">장바구니</i>
+                    <ul id="cart_box">
+                        <li><span>01</span>옵션선택</li>
+                        <li><i class="fas fa-chevron-right"></i></li>
+                        <li><span>02</span>장바구니</li>
+                        <li><i class="fas fa-chevron-right"></i></li>
+                        <li><span>03</span>주문결제</li>
+                        <li><i class="fas fa-chevron-right"></i></li>
+                        <li><span>04</span> 주문완료</li>
+                    </ul>
+                </div> <!-- div end -->
+                
+                <ul id="cart_tab">
+                    <li id="cart_tab_one">일반구매(3)
+                        <div id="tab_one">
+                            일반 구매 내용
+                        </div>
+                    </li>
+                    <li id="cart_tab_two">정기배송(3)
+                        <div id="tab_two">
+                            정기배송 내용
+                        </div>
+                    </li>
+                </ul>
+                <div id="at3_basic">
+                    <p>장바구니 상품이 없습니다.</p>
+                    <input type="button" value="오늘의 추천상품 보러가기"></input>
+                </div>
+            </div> <!-- cart end -->
+
+
+            <ul id="at3_pic">
+                <li>안</li>
+                <li>녕</li>
+                <li>하</li>
+                <li>세</li>
+                <li>요</li>
+            </ul>
+           
+        </article>
+
+        <article class="at at4">
+            <div id="admin">dfdf</div>
+            <ul id="sang">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+            </ul>
+            <div class="sticky">
+                <ul id="at4_sticky">
+                    <li onclick="at4_pic.src='./img/img10.jpg'" name="at4_pic">1</li>
+                    <li onclick="at4_pic.src='./img/img11.jpg'" name="at4_pic">2</li>
+                    <li onclick="at4_pic.src='./img/img12.jpg'" name="at4_pic">3</li>
+                    <li onclick="at4_pic.src='./img/img13.jpg'" name="at4_pic">4</li>
+                    <li onclick="at4_pic.src='./img/img14.jpg'" name="at4_pic">5</li>
+                </ul>
+            </div>
+            <div id="at4_box">
+                <img src="img/img15.jpg" name="at4_pic">
+            </div>
+
+        </article>
+
+        <article class="at at5">5</article>
+        <article class="at at6">6</article>
+        <article class="at at7">7</article>
+    </section>
+    <footer></footer>
+
+
+    
+</body>
+
+</html>
